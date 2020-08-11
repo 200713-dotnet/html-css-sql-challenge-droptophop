@@ -37,3 +37,6 @@ CREATE TABLE Employee.EmpDetails
 
 ALTER TABLE Department.Departments
 ADD Location NVARCHAR(250) NOT NULL;
+
+ALTER TABLE Employee.EmpDetails
+ADD Country NVARCHAR(250) NOT NULL;
