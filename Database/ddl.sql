@@ -34,3 +34,6 @@ CREATE TABLE Employee.EmpDetails
     CONSTRAINT PK_Id PRIMARY KEY (Id),
     CONSTRAINT FK_EmployeeId FOREIGN KEY (EmployeesId) REFERENCES Employee.Employees(EmpId)
 );
+
+ALTER TABLE Department.Departments
+ADD Location NVARCHAR(250) NOT NULL;
