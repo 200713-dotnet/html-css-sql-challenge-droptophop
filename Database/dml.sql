@@ -18,3 +18,10 @@ VALUES
 ( '1', 80000, '123 Homestead St', 'Apt 192', 'Arlington', 'Texas', 'US' ),
 ( '2', 75000, '475 Circle Dr', '', 'Addison', 'Texas', 'US' ),
 ( '3', 85000, '987 Union City Hwy', '', 'Fort Worth', 'Texas', 'US' )
+
+SELECT * FROM Employee.Employees
+WHERE DeptID = 3;
+
+UPDATE Employee.EmpDetails
+SET Salary = 90000
+WHERE ID = 4;
